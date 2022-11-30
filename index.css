@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    position: relative;
+
+}
+.container {
+    height: 650px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 9px;
+    justify-content: space-evenly;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.input1,
+.input1:checked[type=checkbox] {
+    background: url("https://previews.123rf.com/images/luplupme/luplupme1907/luplupme190700594/129453972-british-english-language-learning-class-vector-illustration-brittish-flag-logo-england-dictionary-bi.jpg") center center/cover;
+}
+.input1:checked[type=checkbox] {
+    border: 3px solid #2ed573;
+}
+.input2,
+.input2:checked[type=checkbox] {
+    background: url("https://spiderimg.amarujala.com/cdn-cgi/image/width=414,height=233,fit=cover,f=auto/assets/images/2021/09/06/750x506/hindi-pakhwada2021_1630937740.jpeg") center center/cover;
+}
+.input2:checked[type=checkbox] {
+    border: 3px solid #2ed573;
+}
+.input3,
+.input3:checked[type=checkbox] {
+    background: url("https://onlinetyping.in/images/punjabi.jpg") center center/cover;
+}
+.input3:checked[type=checkbox] {
+    border: 3px solid #2ed573;
+}
+.input4,
+.input4:checked[type=checkbox] {
+    background: url("https://c8.alamy.com/comp/2BGJCYK/made-in-russia-written-in-russian-language-guarantee-label-with-a-waving-russia-flag-2BGJCYK.jpg") center center/cover;
+}
+.input4:checked[type=checkbox] {
+    border: 3px solid #2ed573;
+}
+.input5,
+.input5:checked[type=checkbox] {
+    background: url("https://images.indianexpress.com/2015/02/urdu-l.jpg?w=389") center center/cover;
+}
+.input5:checked[type=checkbox] {
+    border: 3px solid #2ed573;
+}
+.input6,
+.input6:checked[type=checkbox] {
+    background: url("https://thumbs.dreamstime.com/b/vector-illustration-speech-bubbles-chinese-language-two-hand-drawn-doodle-national-flag-china-written-name-109521234.jpg") center center/cover;
+}
+.input6:checked[type=checkbox] {
+    border: 3px solid #2ed573;
+}
+.input7,
+.input7:checked[type=checkbox] {
+    background: url("https://thumbs.dreamstime.com/b/vector-illustration-korean-language-national-flag-republic-korea-two-hand-drawn-doodle-speech-bubbles-south-written-109521246.jpg") center center/cover;
+}
+.input7:checked[type=checkbox] {
+    border: 3px solid #2ed573;
+}
+.input8,
+.input8:checked[type=checkbox] {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV9dPCgvoq05KdCcmf1BmStBsjbp9Ehtm44A&usqp=CAU") center center/cover;
+}
+.input8:checked[type=checkbox] {
+    border: 3px solid #2ed573;
+}
+input[type=checkbox] {
+    height: 100px;
+    width: 150px;
+    border-radius: 5px;
+    appearance: none;
+    margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+video {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+}
+footer {
+    background-color:#2ed573;
+    color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+}
+.rightOption{
+    color: black;
+    padding-left: 10px;
+    text-decoration: none;
+}
+.rightOption:hover{
+    color: black;
+    font-weight: 500
+}
+dialog{
+    margin: auto;
+    padding: 10px;
+    top:200px;
+    left:27px;
+    height: 400px;
+    width: 500px;
+    border: 4px solid #2ed573;
+    background-color: rgba(50, 50, 93, 0.85);
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.dailogTitle{
+    font-size: xx-large;
+    font-weight: 300;
+    letter-spacing: -2px;   
+}
+.dialogText{
+    margin-top: 60px;
+    font-size: larger;
+    font-weight: 500
+
+}
+.btn-success{
+    background-color: rgba(50, 50, 93, 0.25);
+    border: 3px solid #2ed573;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.loginContainer
+{
+    position: absolute;
+    background-color:rgba(83, 92, 104, 0.5);
+    top: 95px;
+    left: 750px;
+}
+label{
+    font-size: larger;
+    color: white;
+}
+h2{
+    margin-top: 20px;
+    background-color: rgba(46, 213, 115, 0.5);
+    border:2px solid rgba(2, 2, 2, 0.25);
+    border-radius: 9px;
+    
+}
+.footerSign{
+position: absolute;
+width: 100%;
+top: 752px;
+}
+a{
+    color: rgba(46, 213, 115,1 );
+    text-decoration: none;
+}
+.homeConatiner{
+    height: 98vh;
+   background: url("https://images.pexels.com/photos/1428277/pexels-photo-1428277.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1428277.jpg&fm=jpg") center center/cover;
+}
+.homeLogout{
+    height: 30px;
+    margin-left: 30px;
+    padding: 0;
+    width: 70px;
+}
